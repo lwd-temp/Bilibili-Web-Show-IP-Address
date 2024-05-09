@@ -15,11 +15,11 @@ devDependencies:
     specifier: ^5.0.4
     version: 5.4.5
   vite:
-    specifier: ^5.0.10
-    version: 5.2.0(@types/node@20.12.3)
+    specifier: ^5.2.6
+    version: 5.2.6(@types/node@20.12.3)
   vite-plugin-monkey:
     specifier: ^3.5.1
-    version: 3.5.2(vite@5.2.0)
+    version: 3.5.2(vite@5.2.6)
 
 packages:
 
@@ -1209,7 +1209,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /vite-plugin-monkey@3.5.2(vite@5.2.0):
+  /vite-plugin-monkey@3.5.2(vite@5.2.6):
     resolution: {integrity: sha512-UaMfHv6PbuSzX11NFmxxpdI9/+WNdRt6OZLfrhKTkySpgPvbFqvME38J/1LpjqFXMgwjKWCTW28RRSEt+ygSRA==}
     engines: {node: ^14.18 || >= 16, pnpm: '>=6'}
     peerDependencies:
@@ -1226,11 +1226,11 @@ packages:
       open: 9.1.0
       picocolors: 1.0.0
       systemjs: 6.14.3
-      vite: 5.2.0(@types/node@20.12.3)
+      vite: 5.2.6(@types/node@20.12.3)
     dev: true
 
-  /vite@5.2.0(@types/node@20.12.3):
-    resolution: {integrity: sha512-xMSLJNEjNk/3DJRgWlPADDwaU9AgYRodDH2t6oENhJnIlmU9Hx1Q6VpjyXua/JdMw1WJRbnAgHJ9xgET9gnIAg==}
+  /vite@5.2.6(@types/node@20.12.3):
+    resolution: {integrity: sha512-FPtnxFlSIKYjZ2eosBQamz4CbyrTizbZ3hnGJlh/wMtCrlp1Hah6AzBLjGI5I2urTfNnpovpHdrL6YRuBOPnCA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
